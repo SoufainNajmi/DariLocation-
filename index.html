@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DariLocation - Votre partenaire de location</title>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" class="logo">Dari<span>Location</span></a>
+                
+                <ul class="nav-links">
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="#properties">Annonces</a></li>
+                    <li><a href="#how-it-works">Comment ça marche</a></li>
+                    <li><a href="#testimonials">Témoignages</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                
+                <div class="auth-buttons">
+                    <button class="btn btn-outline" id="loginBtn">Connexion</button>
+                    <button class="btn btn-primary" id="registerBtn">S'inscrire</button>
+                </div>
+                
+                <div class="mobile-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Trouvez la maison de vos rêves</h1>
+            <p>Des milliers d'annonces de location vérifiées dans toute la région. Votre futur logement n'attend que vous.</p>
+            
+            <div class="search-box">
+                <input type="text" placeholder="Ville, quartier...">
+                <select>
+                    <option value="">Type de bien</option>
+                    <option value="appartement">Appartement</option>
+                    <option value="maison">Maison</option>
+                    <option value="villa">Villa</option>
+                    <option value="studio">Studio</option>
+                </select>
+                <select>
+                    <option value="">Budget max</option>
+                    <option value="1000">1 000 DH</option>
+                    <option value="2000">2 000 DH</option>
+                    <option value="3000">3 000 DH</option>
+                    <option value="5000">5 000 DH</option>
+                    <option value="10000">10 000 DH</option>
+                </select>
+                <button class="btn btn-primary">Rechercher</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="section features">
+        <div class="container">
+            <h2 class="section-title">Pourquoi choisir DariLocation ?</h2>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Annonces vérifiées</h3>
+                    <p>Toutes nos annonces sont vérifiées pour vous garantir des biens de qualité et des propriétaires sérieux.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3>Recherche avancée</h3>
+                    <p>Notre moteur de recherche intelligent vous aide à trouver le logement parfait selon vos critères.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3>Support personnalisé</h3>
+                    <p>Notre équipe est à votre écoute pour vous accompagner dans toutes vos démarches de location.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Properties Section -->
+    <section class="section properties" id="properties">
+        <div class="container">
+            <h2 class="section-title">Annonces récentes</h2>
+            
+            <div class="properties-filter">
+                <button class="filter-btn active">Tous</button>
+                <button class="filter-btn">Appartements</button>
+                <button class="filter-btn">Maisons</button>
+                <button class="filter-btn">Studios</button>
+                <button class="filter-btn">Villas</button>
+            </div>
+            
+            <div class="properties-grid">
+                <!-- Property 1 -->
+                <div class="property-card">
+                    <img src="#" alt="Appartement moderne" class="property-img">
+                    <div class="property-details">
+                        <div class="property-price">3 500 DH/mois</div>
+                        <h3 class="property-title">Appartement moderne 3 pièces</h3>
+                        <div class="property-location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Casablanca, Maarif</span>
+                        </div>
+                        <div class="property-features">
+                            <div class="property-feature">
+                                <i class="fas fa-bed"></i>
+                                <span>3 chambres</span>
+                            </div>
+                            <div class="property-feature">
+                                <i class="fas fa-bath"></i>
+                                <span>2 salles de bain</span>
+                            </div>
+                            <div class="property-feature">
+                                <i class="fas fa-vector-square"></i>
+                                <span>90 m²</span>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary btn-block">Voir les détails</button>
+                    </div>
+                </div>
+                
+                <!-- Property 2 -->
+                <div class="property-card">
+                    <img src="#" alt="Villa de luxe" class="property-img">
+                    <div class="property-details">
+                        <div class="property-price">12 000 DH/mois</div>
+                        <h3 class="property-title">Villa spacieuse avec jardin</h3>
+                        <div class="property-location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Rabat, Agdal</span>
+                        </div>
+                        <div class="property-features">
+                            <div class="property-feature">
+                                <i class="fas fa-bed"></i>
+                                <span>4 chambres</span>
+                            </div>
+                            <div class="property-feature">
+                                <i class="fas fa-bath"></i>
+                                <span>3 salles de bain</span>
+                            </div>
+                            <div class="property-feature">
+                                <i class="fas fa-vector-square"></i>
+                                <span>220 m²</span>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary btn-block">Voir les détails</button>
+                    </div>
+                </div>
+                
+                <!-- Property 3 -->
+                <div class="property-card">
+                    <img src="#" alt="Studio étudiant" class="property-img">
+                    <div class="property-details">
+                        <div class="property-price">1 800 DH/mois</div>
+                        <h3 class="property-title">Studio meublé centre-ville</h3>
+                        <div class="property-location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Fès, Ville Nouvelle</span>
+                        </div>
+                        <div class="property-features">
+                            <div class="property-feature">
+                                <i class="fas fa-bed"></i>
+                                <span>1 chambre</span>
+                            </div>
+                            <div class="property-feature">
+                                <i class="fas fa-bath"></i>
+                                <span>1 salle de bain</span>IS O
+                            </div>
+                            <div class="property-feature">
+                                <i class="fas fa-vector-square"></i>
+                                <span>35 m²</span>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary btn-block">Voir les détails</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="view-all">
+                <button class="btn btn-outline">Voir toutes les annonces</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="section how-it-works" id="how-it-works">
+        <div class="container">
+            <h2 class="section-title">Comment ça marche ?</h2>
+            
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Créez votre compte</h3>
+                    <p>Inscrivez-vous gratuitement en quelques minutes.</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Publiez ou recherchez</h3>
+                    <p>Déposez votre annonce ou trouvez le logement idéal.</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Contactez et visitez</h3>
+                    <p>Échangez avec les propriétaires ou locataires et organisez des visites.</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3>Signez en toute sécurité</h3>
+                    <p>Finalisez votre location avec nos contrats types sécurisés.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="section testimonials" id="testimonials">
+        <div class="container">
+            <h2 class="section-title">Ce que disent nos utilisateurs</h2>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"J'ai trouvé mon appartement en moins d'une semaine grâce à DariLocation. L'interface est intuitive et les propriétaires sont sérieux."</p>
+                    <div class="testimonial-author">
+                        <img src="#" alt="Amina" class="author-avatar">
+                        <div class="author-info">
+                            <h4>Amina E.</h4>
+                            <p>Locataire à Casablanca</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"J'ai pu louer ma villa rapidement à une famille très sympathique. Le service est professionnel et efficace."</p>
+                    <div class="testimonial-author">
+                        <img src="#" alt="Karim" class="author-avatar">
+                        <div class="author-info">
+                            <h4>Karim B.</h4>
+                            <p>Propriétaire à Rabat</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"En tant qu'étudiant, j'apprécie particulièrement les filtres de recherche qui m'ont permis de trouver un studio dans mon budget."</p>
+                    <div class="testimonial-author">
+                        <img src="#" alt="Youssef" class="author-avatar">
+                        <div class="author-info">
+                            <h4>Youssef M.</h4>
+                            <p>Étudiant à Fès</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>DariLocation</h3>
+                    <p>Votre partenaire de confiance pour toutes vos locations immobilières. Des milliers de biens vérifiés à travers le pays.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Liens rapides</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Accueil</a></li>
+                        <li><a href="#properties">Annonces</a></li>
+                        <li><a href="#how-it-works">Comment ça marche</a></li>
+                        <li><a href="#testimonials">Témoignages</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Catégories</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Appartements</a></li>
+                        <li><a href="#">Maisons</a></li>
+                        <li><a href="#">Studios</a></li>
+                        <li><a href="#">Villas</a></li>
+                        <li><a href="#">Locations saisonnières</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Contact</h3>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Avenue Hassan II, Casablanca</li>
+                        <li><i class="fas fa-phone"></i> +212 5 22 123 456</li>
+                        <li><i class="fas fa-envelope"></i> contact@darilocation.ma</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 DariLocation. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>najmi soufain anj i `s
+
+    <!-- Login Modal -->
+    <div class="modal" id="loginModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Connexion</h2>
+            <form id="loginForm">
+                <div class="form-group">
+                    <label for="loginEmail">Email</label>
+                    <input type="email" id="loginEmail" required>
+                </div>
+                <div class="form-group">
+                    <label for="loginPassword">Mot de passe</label>
+                    <input type="password" id="loginPassword" required>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Se connecter</button>
+            </form>
+            <p style="text-align: center; margin-top: 15px;">Pas encore de compte ? <a href="#" id="switchToRegister">S'inscrire</a></p>
+        </div>
+    </div>
+
+    <!-- Register Modal -->
+    <div class="modal" id="registerModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Inscription</h2>
+            <form id="registerForm">
+                <div class="form-group">
+                    <label for="registerName">Nom complet</label>
+                    <input type="text" id="registerName" required>
+                </div>
+                <div class="form-group">
+                    <label for="registerEmail">Email</label>
+                    <input type="email" id="registerEmail" required>
+                </div>
+                <div class="form-group">
+                    <label for="registerPhone">Téléphone</label>
+                    <input type="tel" id="registerPhone" required>
+                </div>
+                <div class="form-group">
+                    <label for="registerPassword">Mot de passe</label>
+                    <input type="password" id="registerPassword" required>
+                </div>
+                <div class="form-group">
+                    <label for="registerType">Je suis</label>
+                    <select id="registerType" required>
+                        <option value="">Sélectionnez...</option>
+                        <option value="tenant">Locataire</option>
+                        <option value="owner">Propriétaire</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">S'inscrire</button>
+            </form>
+            <p style="text-align: center; margin-top: 15px;">Déjà un compte ? <a href="#" id="switchToLogin">Se connecter</a></p>
+        </div>
+    </div>
+   
+</body>
+</html>
